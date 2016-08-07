@@ -5,7 +5,7 @@ permalink:           pretty
 
 # Setup
 title:               cole lyman
-tagline:             CS, Bioinformatics, Big Data, Python & Life
+tagline:             CS, Bioinformatics & Life
 url:                 http://colelyman.com
 baseurl:             ''
 paginate:            3
@@ -18,4 +18,5 @@ author:
 
 # Custom vars
 version:             1.0.0
-gems: [jekyll-paginate]
+gems: 
+                     [jekyll-paginate, jekyll-sitemap, jekyll-seo-tag]
