@@ -3,28 +3,24 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hi friend, welcome to my little part of the internet.
+As you noticed, my name is Cole. Here is a little bit about the various aspects of my life.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## Academia
 
-There are currently two themes built on Poole:
+I am currently a student at [Brigham Young University](http://byu.edu) studying Computer Science and Bioinformatics. 
+If you don't know what Bioinformatics is, you can think of it as studying biology (namely DNA) using computers.
+I am also interested in data science and its implications on society. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I work in the [Computational Sciences Lab](http://csl.cs.byu.edu) at [BYU](http://byu.edu) with [Dr. Mark Clement](http://faculty.cs.byu.edu/~clement/).
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+### Projects
 
-## Setup
+* Implementing a version of GNUMAP (a read aligner) to utilize Graphical Processing Units (GPU).
+* Preliminary work for a tool to create synthetic VCF files.
 
-Some fun facts about the setup of this project include:
+Project at Harvard Medical School Summer Undergraduate Institute:
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+* Comparison of multiple trajectory reconstruction methods for single-cell RNA-seq.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+## 
