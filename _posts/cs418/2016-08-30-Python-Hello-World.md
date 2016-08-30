@@ -1,8 +1,8 @@
 ---
 title: Python Tutorial CS 418/BIO 365
 layout: post
-tags: python, cs418
-categories: school
+tags: python, school
+categories: cs418
 ---
 <div align="center">
 <h1>Python Tutorial</h1>
