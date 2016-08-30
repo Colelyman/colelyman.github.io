@@ -196,12 +196,12 @@ print(my_string[0:-2])
 
 <div align="center">
 <h1>Rosalind Tutorial</h1>
-<h4>You can register for the course at: [http://rosalind.info/classes/enroll/e464d00a10/](http://rosalind.info/classes/enroll/e464d00a10/)</h4>
+<h4>You can register for the course at: <a href="http://rosalind.info/classes/enroll/e464d00a10/">http://rosalind.info/classes/enroll/e464d00a10/</a></h4>
 <h3>Use your NetID as your username!!</h3>
 </div>
 
 <div align="center">
-<h2>The first problem is found here: [http://rosalind.info/problems/ba1b/?class=322](http://rosalind.info/problems/ba1b/?class=322)</h2>
+<h2>The first problem is found here: <a href="http://rosalind.info/problems/ba1b/?class=322">http://rosalind.info/problems/ba1b/?class=322</a></h2>
 </div>
 
 
