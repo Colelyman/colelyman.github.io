@@ -21,6 +21,7 @@ I say that the most important part of using software is figuring out how to inst
 Sometimes it can be harder than you think.
 
 Here is how you install Velvet:
+
 1. [Download the source](http://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.10.tgz)
 ..* *Optional:* Check out the sweet [Velvet website](http://www.ebi.ac.uk/~zerbino/velvet/) complete with web 2.0 design. Al Gore would be proud.
 2. Go to the directory in which you downloaded the file ```$ cd ~/Downloads``` and unzip the file ```$ tar zxvf velvet_1.2.10.tgz```
@@ -41,6 +42,7 @@ We want to assemble the Zika virus genome to help find a cure.
 Download the reads [zika.read1.fastq](/public/cs418/zika.read1.fastq) and [zika.read2.fastq](/public/cs418/zika.read2.fastq), then run this command ```$ ./velveth zika_genome 20 -fastq -shortPaired ~/Downloads/zika.read1.fastq ~/Downloads/zika.read2.fastq```.
 This command is a sort of preprocessing command that constructs your dataset so that it can assemble it.
 Here are what the parameters mean:
+
 * ```./velveth```- the program that we use
 * ```zika_genome```- this is the output directory of all the files
 * ```20```- this is the hash (in other words, kmer) size that we use, you will want to play around with this
@@ -48,6 +50,7 @@ Here are what the parameters mean:
 * ```-shortPaired```- this is the type of input reads that we have
 * ```~/Downloads/zika.read1.fastq```- this is the first file of reads
 * ```~/Downloads/zika.read2.fastq```- this is the second file of reads
+
 *Note:* You can have an unlimited number of input files.
 
 ## Assembling the reads
@@ -55,6 +58,7 @@ Here are what the parameters mean:
 We are now going to use the program ```./velvetg``` to actually construct the de Bruijn graph and assemble the reads.
 Issue the command ```$ ./velvetg zika_genome/ -cov_cutoff 4 -min_contig_lgth 100```, and now you have assembled your first genome!
 Here are what the parameters mean:
+
 * ```./velvetg```- the program that we use
 * ```-cov_cutoff 4```- this removes the nodes that have a coverage less than 4
 * ```-min_contig_lgth 100```- this gives us all of the contigs that are greater than 100 bases
