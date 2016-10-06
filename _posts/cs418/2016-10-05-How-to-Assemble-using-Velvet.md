@@ -23,10 +23,10 @@ Sometimes it can be harder than you think.
 Here is how you install Velvet:
 
 1. [Download the source](http://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.10.tgz)
-..* *Optional:* Check out the sweet [Velvet website](http://www.ebi.ac.uk/~zerbino/velvet/) complete with web 2.0 design. Al Gore would be proud.
+  * *Optional:* Check out the sweet [Velvet website](http://www.ebi.ac.uk/~zerbino/velvet/) complete with web 2.0 design. Al Gore would be proud.
 2. Go to the directory in which you downloaded the file ```$ cd ~/Downloads``` and unzip the file ```$ tar zxvf velvet_1.2.10.tgz```
 3. Go to the just unzipped directory ```$ cd velvet_1.2.10``` and compile Velvet by issuing the command ```$ make```
-..* *Error warning!!* If you get an error that says something along the lines of ```fatal error: zlib.h: NO such file or directory``` then try installing the package ```zlib1g-dev``` then running ```$ make``` again
+  * **Error warning!!** If you get an error that says something along the lines of ```fatal error: zlib.h: NO such file or directory``` then try installing the package ```zlib1g-dev``` then running ```$ make``` again
 4. If you didn't get any errors, it looks like you have installed Velvet! If you got errors, Google the error and figure out how to fix it.
 
 ### Running Velvet
