@@ -61,7 +61,7 @@ Run `$ samtools index examples/toy.sorted.bam`.
 ## Viewing BAM Using `samtools tview`
 
 Now we can finally view the aligned reads in our terminal!
-Run `$ samtools tview examples/toy.sorted.bam` and you will suddenly see four reads aligned to an extremely small genome. 
+Run `$ samtools tview examples/toy.sorted.bam examples/toy.fa` and you will suddenly see four reads aligned to an extremely small genome. 
 You should see something along these lines:
 
     1         11              21        31         41        51
