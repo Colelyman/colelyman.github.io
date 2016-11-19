@@ -1,8 +1,8 @@
 ---
 title: Genome Mapping Post Processing
 layout: post
-tags: cs418, genome mapping
-categories: school
+tags: school, genome mapping
+categories: cs418 
 ---
 
 So you have mapped your reads to the reference genome, but what comes next? 
