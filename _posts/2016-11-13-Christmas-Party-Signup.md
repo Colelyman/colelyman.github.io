@@ -1,6 +1,6 @@
 ---
 title: North Park 3rd Ward Christmas Party Sign up
-layout; post
+layout: post
 categories: church
 ---
 
